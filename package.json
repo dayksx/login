@@ -1,0 +1,29 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "simple authentication based on oauth & oid ",
+  "main": "app.js",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-openid-connect": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayksx/login.git"
+  },
+  "keywords": [
+    "login"
+  ],
+  "author": "dayksx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayksx/login/issues"
+  },
+  "homepage": "https://github.com/dayksx/login#readme"
+}
